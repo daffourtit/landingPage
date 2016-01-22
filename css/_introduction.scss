@@ -1,0 +1,39 @@
+.introduction {
+    background-image: url(http://thinkful-ed.github.io/karma-clone/img/first-background.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+    height: 46rem;
+    h1 {
+        margin-top: 17.5rem;
+        text-align: center;
+        font-size: 3.125rem;
+    }
+    h3 {
+        margin-top: 1.25rem;
+        font-size: 1.35rem;
+    }
+    h1, h3 {
+        color: white;
+        text-align: center;
+        font-weight: 300;
+        font-family: $font-main;
+    }
+    .button-large {
+        font-family: $font-main;
+        text-align: center;
+        margin-top: 1.536rem;
+    }
+    button {
+        width: 9.688rem;
+        background-color: #f15a29;
+        border-color: #f15a29;
+        text-shadow: none;
+        border-style: none;
+        border-radius: 4px;
+        padding: 1rem 1.5rem;
+        color: white;
+        font-size: 1.125;   
+    }
+}

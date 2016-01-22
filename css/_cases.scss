@@ -1,0 +1,51 @@
+.cases {
+    padding-bottom: 5rem;
+    .content {
+        margin-top: 5rem;
+        text-align: center;
+        .devices {
+            margin-top: 3rem;
+            li {
+                display: inline-block;
+            }
+            .caption {
+                text-align: center;
+                margin: 2rem 0 2rem 0;
+            }
+        }
+        img {
+            height: 10rem;
+        }
+    }
+    h2 {
+        font-size: 2.5rem;
+        font-weight: 300;
+    }
+    h3 {
+        font-size: 1.25rem;
+        font-weight: 400; 
+    }
+}
+
+@media screen and (min-width: $break-smaller) and (max-width: 830px){
+    .cases {
+        .content {
+            .devices {
+            .caption {
+        float: right;
+        margin: 4rem 0 2rem 3rem;
+                }        
+            }
+        }    
+    }
+}
+
+@media screen and (min-width: 830px) {
+    .cases .devices li {
+        max-width: 300px;
+        width: 33.333%;
+    }
+    .cases .content .devices .caption {
+        margin: 2.5rem 0 1.875rem 0;
+    }
+}
